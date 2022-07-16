@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+/*Colors*/
+/*Primary*/
+:root{
+    --Dark-cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    /*Neutral*/
+    --Very-dark-blue: hsl(212, 21%, 14%);
+    --Dark-grayish-blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    }
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cream);
+}
+
+.container{
+    width: 620px;
+    height: 460px;
+    background-color: var(--White);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container1{
+    height: 550px;
+    width: 600px;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.date{
+    font-family: 'Fraunces';
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--Dark-cyan);
+}
+
+.perfume{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--Dark-grayish-blue);
+    margin-top: 35px;
+}
+
+.submit{
+    font-family: 'Montserrat';
+    color: white;
+    margin-top: 30px;
+    background-color: var(--Dark-cyan);
+    border-radius: 10px;
+    border: none;
+    padding: 12px 0;
+    justify-content: space-between;
+    width: 250px;
+}
+.floral{
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: var(--Dark-grayish-blue);
+    margin-right: 20px;
+}
+h1{
+    font-family: 'Fraunces';
+    color: var(--Very-dark-blue);
+    margin-right: 20px;
+}
+.date1{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    text-decoration: line-through;
+    color: var(--Dark-grayish-blue);
+}
+
+.product{
+    height: 460px;
+}
